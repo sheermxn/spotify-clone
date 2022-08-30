@@ -1,2 +1,4 @@
-# spotify-clone
-Clone do Spotify - Atividade DI-1
+# Clone do Spotify
+
+## Atividade de DI-1 (ETEPD)
+Website solicitado pelo professor de DI-1
