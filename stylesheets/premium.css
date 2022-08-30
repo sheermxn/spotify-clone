@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Gotham', sans-serif;
     text-decoration: none;
-    outline: .2px solid red;
+    /*outline: .2px solid red;*/
 }
 
 html {
@@ -169,4 +169,111 @@ ul {
     align-items: center;
     justify-content: center;
     row-gap: 20px;
+}
+
+#third-section {
+    height: 130vh;
+    width: 100%;
+}
+
+.ts-container {
+    padding: 90px 20px 30px 20px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.cardlist.item {
+    width: 30px;
+}
+
+.cardlist.item img {
+    width: 100%;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.top-content h1 {
+    color: black;
+    font-size: 34px;
+}
+
+.top-content p {
+    color: black;
+    font-size: 14px;
+}
+
+.cardlist.container {
+    display: flex;
+    column-gap: 5px;
+}
+
+.paymentcard.container {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.paymentcard.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 5px 30px 5px;
+    background: white;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.paymentcard.topinfo {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 70px;
+}
+
+.paymentinfo.month {
+    border-radius: 5px;
+    font-family: "Gotham Black", sans-serif;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+}
+
+.paymentinfo.title {
+    font-size: 22px;
+}
+
+.paymentcard.middleinfo {
+    width: 270px;
+    border-top: 1.5px solid #0000006b;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 120px;
+}
+
+.paymentcard.infolist.item {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.paymentcard.infolist.item i {
+    font-size: 22px;
 }
