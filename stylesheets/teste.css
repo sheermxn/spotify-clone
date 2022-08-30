@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-menu {
+    width: calc(100% - 241px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #1f1f1f;
+}
+
+.top-menu-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+#log-btn {
+    border: none;
+    border-radius: 40px;
+    background: #ffffff;
+    font-size: 16px;
+    width: 120px;
+    height: 50px;
+}
+
+#log-btn:hover {
+    transition: .1s;
+    transform: scale(105%);
+}
+
+#cad-btn {
+    border: none;
+    background: transparent;
+    color: #ffffff77;
+    width: 70px;
+    height: 20px;
+    font-size: 14px;
+}
+
+#cad-btn:hover {
+    transition: .1s;
+    color: #ffffff;
+    transform: scale(105%);
+}
+
+.menu-lateral {
+    z-index: 999;
+    position: relative;
+    padding: 15px 0;
+    left: 0;
+    width: 241px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.top-logo {
+    width: 100%;
+    padding: 0 45px;
+    margin-bottom: 20px;
+}
+
+.top-logo img {
+    width: 100%;
+}
+
+#main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 45px;
+    color: white;
+}
+
+.main-nav-item a {
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffffa5;
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.main-nav-item a i {
+    font-size: 22px;
+}
+
+.main-nav-item a span {
+    font-size: 14px;
+}
+
+.main-nav-item a:hover {
+    transition: .3s;
+    color: white;
+}
+
+#second-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 45px;
+    color: white;
+}
+
+.footer-ad {
+    z-index: 999;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(90deg,#af2896,#509bf5);
+}
+
+.footer-ad-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.footer-ad-info h4 {
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer-ad-info p {
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+#cad-btn2 {
+    border: none;
+    border-radius: 40px;
+    background: #ffffff;
+    font-size: 16px;
+    width: 140px;
+    height: 50px;
+}
+
+#cad-btn2:hover {
+    transition: .1s;
+    transform: scale(105%);
+}
