@@ -1,0 +1,139 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+:root {
+    --pink: #ff4169;
+    --purple: #7c26f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+    text-decoration: none;
+    /*outline: .2px solid red;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding: 16px 120px;
+    width: 100%;
+    border-bottom: 0.5px solid #d1d1d1;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.mainsectionwrapper {
+    padding: 25px 5px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.top-buttons {
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    flex-direction: column;
+    display: flex;
+}
+
+.login-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 15px 15px 15px;
+    row-gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-box input {
+    outline: none;
+    border-radius: 5px;
+    border: .5px solid #6a6a6a;
+    padding: 15px 10px 15px 15px;
+    width: 350px;
+}
+
+.input-box input:hover {
+    border: .5px solid black;
+}
+
+#forgotpass {
+    cursor: default;
+    color: black;
+    font-size: 14px;
+}
+
+#forgotpass:hover {
+    text-decoration: underline;
+}
+
+.remembermebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+#remembermecheck {
+    accent-color: #1ed760;
+}
+
+#loginbtn {
+    letter-spacing: 5px;
+    font-weight: 600;
+    background-color: #1ed760;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 35px;
+}
+
+.guest {
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

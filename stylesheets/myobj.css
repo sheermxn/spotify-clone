@@ -1,4 +1,7 @@
 .round-button.big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     font-family: 'Gotham Black', sans-serif;
     color: white;
@@ -12,7 +15,6 @@
 
 .round-button.big:hover {
     transition: .1s;
-    transform: scale(102%);
     border: 1px solid #141414;
 }
 
